@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocation calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Calculate distance</h2>
+
+
+        <p><b>Point (A)</b></p>
+        <input type="number" id="lat1" placeholder="Latitude A eg(50.85646)"><br><br>
+        <input type="number" id="long1" placeholder="Longitude A eg(-20.85646)">  
+        
+        <p><b>Point (B)</b></p>
+         <input type="number" id="lat2" placeholder="Latitude B eg(50.85646)"><br><br>
+        <input type="number" id="long2" placeholder="Longitude B eg(-32.8562)">  
+    
+        <br><br>
+        <button onclick="getcalculate()">Calculate distance</button>
+
+        <div class="result"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
